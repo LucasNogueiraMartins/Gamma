@@ -8,7 +8,7 @@ The matrices being constructed are
 
 `chiral` - `numpy.array` of shape (32,32) and `dtype=int8`. Diagonal matrix with the first 16 entries valued -1 and the last 16 entries valued +1.
 
-`C` - `numpy.array` of shape (32,32) and `dtype=int8`. It is the charge conjugations matrix. In our basis, the first 5 spatial directions are real while the last five directions are imaginary, so `C` commutes with `γ[i,:,:]` for `i` in range `(0,5)` and anti-commutes with `γ[i,:,:]` for `i` in range `(5,10)`.
+`C` - `numpy.array` of shape (32,32) and `dtype=int8`. It is the charge conjugation matrix. In our basis, the first 5 spatial directions are real while the last five directions are imaginary, so `C` commutes with `γ[i,:,:]` for `i` in range `(0,5)` and anti-commutes with `γ[i,:,:]` for `i` in range `(5,10)`.
 
 `γ_gpu` - `torch.tensor` of shape (10,32,32), `dtype=torch.complex128` and `device='cuda:0'`. They are essentially the gamma matrices constructed in GPU using torch.
 
