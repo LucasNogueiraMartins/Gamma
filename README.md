@@ -1,6 +1,6 @@
 # Gamma
 
-A module `gamma.py` is introduced in which it construct the 32x32 Hermitian gamma matrices of Euclidean R^10.
+A module `gamma.py` is introduced which constructs the 32x32 Hermitian gamma matrices of Euclidean R^10.
 
 The matrices being constructed are
 
